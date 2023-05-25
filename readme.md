@@ -1,11 +1,13 @@
 # SCHEDULE
-
+```
 Topic: Programming Lecture
 Time: May 26, 2023 01:00 PM Eastern Time (US and Canada)
 
 Join Zoom Meeting
+```
 https://us06web.zoom.us/j/82754057144?pwd=OVlKb0lTaDRVWnRGRzBzSDdVTVJLQT09
 
+```
 Meeting ID: 827 5405 7144
 Passcode: 159511
 One tap mobile
@@ -33,7 +35,7 @@ Dial by your location
 Meeting ID: 827 5405 7144
 Passcode: 159511
 Find your local number: https://us06web.zoom.us/u/kc4QbT24Gd
-
+```
 
 # ABOUT THE GROUP
 Hey Everyone! 
