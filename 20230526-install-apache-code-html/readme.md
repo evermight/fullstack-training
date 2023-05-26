@@ -2,7 +2,7 @@
 
 ## Video Lecture
 
-https://youtu.be/ItfR5nj2GvA
+Video here https://youtu.be/ItfR5nj2GvA
 
 Things covered:
 
