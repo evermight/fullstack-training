@@ -1,20 +1,25 @@
 # SCHEDULE
 ```
+
 Topic: Programming Lecture
-Time: May 26, 2023 01:00 PM Eastern Time (US and Canada)
+Time: May 27, 2023 01:00 PM Eastern Time (US and Canada)
 
 Join Zoom Meeting
 ```
-https://us06web.zoom.us/j/82754057144?pwd=OVlKb0lTaDRVWnRGRzBzSDdVTVJLQT09
-
+https://us06web.zoom.us/j/89863113817?pwd=ejVnd2ZCWnhaWlBuc1ZUQ0thL2VtQT09
 ```
-Meeting ID: 827 5405 7144
-Passcode: 159511
+Meeting ID: 898 6311 3817
+Passcode: 668055
 One tap mobile
-+16469313860,,82754057144#,,,,*159511# US
-+16694449171,,82754057144#,,,,*159511# US
++13462487799,,89863113817#,,,,*668055# US (Houston)
++13602095623,,89863113817#,,,,*668055# US
 
 Dial by your location
+        +1 346 248 7799 US (Houston)
+        +1 360 209 5623 US
+        +1 386 347 5053 US
+        +1 507 473 4847 US
+        +1 564 217 2000 US
         +1 646 931 3860 US
         +1 669 444 9171 US
         +1 669 900 6833 US (San Jose)
@@ -27,14 +32,10 @@ Dial by your location
         +1 305 224 1968 US
         +1 309 205 3325 US
         +1 312 626 6799 US (Chicago)
-        +1 346 248 7799 US (Houston)
-        +1 360 209 5623 US
-        +1 386 347 5053 US
-        +1 507 473 4847 US
-        +1 564 217 2000 US
-Meeting ID: 827 5405 7144
-Passcode: 159511
-Find your local number: https://us06web.zoom.us/u/kc4QbT24Gd
+Meeting ID: 898 6311 3817
+Passcode: 668055
+Find your local number: https://us06web.zoom.us/u/kxvy2D0q
+
 ```
 
 # ABOUT THE GROUP
