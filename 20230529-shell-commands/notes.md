@@ -49,9 +49,9 @@ Compiled code
 - C#
 
 Runtime
-Javascript - NodeJS
-Python - Python
-PHP - PHP
+- Javascript - NodeJS
+- Python - Python
+- PHP - PHP
 
 
 ## Popular Shell Commands for *nix
