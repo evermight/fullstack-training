@@ -1,5 +1,9 @@
 # Notes
 
+## Lecture Video
+
+found here: https://www.youtube.com/watch?v=IIdsRQcVwj0
+
 ## Popular code editors
 
 Visual Studio Code: Mac and Windows
