@@ -6,22 +6,24 @@ found here: https://www.youtube.com/watch?v=IIdsRQcVwj0
 
 ## Popular code editors
 
-Visual Studio Code: Mac and Windows
-Notepad++: Windows
-Sublime: Windows , maybe mac?
-Atom Editor: Mac
+- Visual Studio Code: Mac and Windows
+- Notepad++: Windows
+- Sublime: Windows , maybe mac?
+- Atom Editor: Mac
 
-vi or vim: Linux
+- vi or vim: Linux
 
 ## File Upload Programs
 
 FTP or SFTP programs
 
 Windows:
+
 - WinSCP
 - Filezilla
 
 Mac:
+
 - Filezilla
 - Cyberduck
 
@@ -47,9 +49,9 @@ Compiled code
 - C#
 
 Runtime
-Javascript - NodeJS
-Python - Python
-PHP - PHP
+- Javascript - NodeJS
+- Python - Python
+- PHP - PHP
 
 
 ## Popular Shell Commands for *nix
