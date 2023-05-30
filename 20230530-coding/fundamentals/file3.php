@@ -1,37 +1,18 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <script>
-
-    // Primitive data types
-var variable1 = 14;
-var variable2 = 343.10;
-var variable3 = "A sequence of characters";
-var variable4 = true; // true of false (boolean)
-var variable5 = null;
-// undefined ...  
+<?php
 
 
-console.log(variable1);
-console.log(variable2);
-console.log(variable3);
-console.log(variable4);
-  </script>
-  </head>
-  <body>
-  <?php
+// Dynamic typing/loosely typed language
+// Primitive Data Types
+$variable1 = 14; // integer type
+$variable2 = 343.10; // decimal type
+$variable2a = "s";  //character type
+$variable4 = true; // true or false (boolean type)
+$variable5 = null;
+// undefined ... 
 
-  $variable1 = 14;
-  $variable2 = 343.10;
-  $variable3 = "A sequence of characters";
-  $variable4 = true; // true of false (boolean)
-  $variable5 = null;
-  // undefined ...  
 
-  echo "<p style=\"color:red;\">".$variable1."</p>";
-  echo "<p style=\"color:red;\">".$variable2."</p>";
-  // print the other variables
-  //
-  ?>
-  </body>
-</html>
+
+$variable3 = "A sequence of characters";  // string type
+echo "<p style=\"color:red;\">".$variable1."</p>";
+echo "<p style=\"color:red;\">".$variable2."</p>";
+

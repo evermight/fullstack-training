@@ -1,19 +1,16 @@
-<?php
+let pizza1 = 20.50;
+let pizza2 = 30.21;
+let pizza3 = 12.30;
 
-$pizza1 = 20.50;
-$pizza2 = 30.21;
-$pizza3 = 12.30;
+console.log(pizza1);
+console.log(pizza2);
+console.log(pizza3);
 
-print $pizza1;
-print $pizza2;
-print $pizza3;
+let pizza = [20.50, 30.21, 12.30];
 
-
-$pizza = array(20.50, 30.21, 12.30);
-
-print $pizza[0];
-print $pizza[1];
-print $pizza[2];
+console.log(pizza[0]);
+console.log(pizza[1]);
+console.log(pizza[2]);
 
 /*
 /// ------------------------
