@@ -4,6 +4,7 @@
 
 Video here: https://www.youtube.com/watch?v=dL_lmSYOtGU
 
+Successfully installing mysql on windows: https://www.youtube.com/watch?v=59q2Cnf52kM
 
 ## windows shell login
 
@@ -11,7 +12,10 @@ Video here: https://www.youtube.com/watch?v=dL_lmSYOtGU
 \connect root@localhost
 ```
 
-## windows nodejs authentication fix
+## windows mysql nodejs authentication fix
 ```
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '!!HomeWork!!0';
+FLUSH PRIVILEES;
 ```
+
+
