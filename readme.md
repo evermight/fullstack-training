@@ -3,7 +3,7 @@
 ```
 
 Topic: Programming Lecture
-Time: Jun 5, 2023 01:00 PM Eastern Time (US and Canada)
+Time: Jun 6, 2023 01:00 PM Eastern Time (US and Canada)
 
 Join Zoom Meeting
 https://us06web.zoom.us/j/88200189840?pwd=dDMvZnFONnkwRWtVQXRDSzdzYkdTdz09

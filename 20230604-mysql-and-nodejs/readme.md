@@ -3,6 +3,8 @@
 
 ## Video Lecture
 
+Video Here: https://www.youtube.com/watch?v=WsPCi11VqOA
+
 ## New concepts
 
 - windows mysql fix
