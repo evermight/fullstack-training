@@ -11,13 +11,19 @@
 - nodejs mysql example
 - web server example
 
-## windows shell login
+## Other MySQL Commands
 
-```
-\connect root@localhost
-```
+C REATE
+R EAD
+U PDATE
+D ELETE
 
-## windows nodejs authentication fix
+
+## Windows MySQL NodeJS Permission/Security fix
+
+
 ```
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '!!HomeWork!!0';
+
+FLUSH PRIVILEGES;
 ```

@@ -22,6 +22,26 @@ async function myProgram() {
 
 	console.log(dbresults);
 
+	const query2 = `
+		SELECT * FROM school
+	`;
+	
+	const dbresults2 = await mysqlQuery(query2, connection);
+
+	console.log(dbresults2);
+
+    const dbresultsaddschool = await mysqlQuery("INSERT INTO school (school_id, school_name, address, minimum_age, maximum_age) VALUES (7, 'Academy', 'Virtual Address', 2, 90)", connection);
+
+
+	const query3 = `
+		SELECT * FROM school
+	`;
+	
+	const dbresults3 = await mysqlQuery(query3, connection);
+
+	console.log(dbresults3);
+
+
 	connection.end();
 
 }
