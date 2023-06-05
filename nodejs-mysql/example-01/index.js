@@ -25,9 +25,7 @@ WHERE student.dob > 1970;
 		  else res(results);
 		});
 	});
-	console.log("try");
 	console.log(dbresults[0]);
-	console.log("again");
 	connection.end();
 
 }
