@@ -1,6 +1,12 @@
 # SCHEDULE
 
-TBD
+We are running two programs concurrently.
+
+## 10 hr Crash Course
+Next class time and zoom link here: [crash-course/20230617-intro](crash-course/20230617-intro)
+
+## Deep Dive Practice and Training
+Next class time and zoom link here: [deep-dive/20230621-html](crash-course/20230617-html)
 
 # ABOUT THE GROUP
 Hey Everyone! 
@@ -17,7 +23,7 @@ My goal is to train people with *zero* knowledge of computer programming to be a
 - WordPress development - since it's so popular, everyone should have basic coding knowledge of it
 - Web development framework (express, meteor, or something similar)
 
-I will record our lectures and post on YouTube as UNLISTED so you can all reference it afterwards.  I'll try to avoid showing the pictures of people in the video to make things more private.   Also, I will likely edit these videos and then post it as a public video on one of my YouTube channels to help everyone else in the programming community:
+I will record our lectures and post on YouTube so you can all reference it afterwards and to also help others in the public space.  I will try to avoid showing the pictures of people in the video to make things more private:
 
 https://www.youtube.com/@evermighttech
 https://www.youtube.com/@evermightcorp
