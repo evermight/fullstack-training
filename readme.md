@@ -25,8 +25,8 @@ My goal is to train people with *zero* knowledge of computer programming to be a
 
 I will record our lectures and post on YouTube so you can all reference it afterwards and to also help others in the public space.  I will try to avoid showing the pictures of people in the video to make things more private:
 
-https://www.youtube.com/@evermighttech
-https://www.youtube.com/@evermightcorp
+- https://www.youtube.com/@evermighttech
+- https://www.youtube.com/@evermightcorp
 
 If you have issues with the recordings being posted, then you can always just watch the lectures afterwards then post your questions here.
 
