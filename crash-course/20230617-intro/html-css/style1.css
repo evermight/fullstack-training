@@ -1,0 +1,12 @@
+body {
+	background-color:lightblue;
+}
+h1 {
+	font-family:monospace;
+}
+p {
+	font-family:cursive;
+	background:yellow;
+	border:5px dashed green;
+	padding:30px;
+}
