@@ -15,9 +15,9 @@ Our WhatsApp Group is here incase you need to ask any questions: https://chat.wh
 
 My goal is to train people with *zero* knowledge of computer programming to be able to build their own web apps for fun/prototyping within 10 hours -- I call this the **Crash Course Program** .  Then for those who want a career change to be a software developer, they can concurrently take part in the **Deep Dive Program** where we will do a lot of practice assignments to thoroughly understand software engineering.  Some topics covered in both programs are as follows:
 
-- backend coding (JavaScript/nodejs)
+- frontend coding (HTML CSS)
+- backend coding (JavaScript/Nodejs)
 - database development (MySQL or mongo)
-- frontend coding (html css)
 - server/system maintenance
 - GitHub
 - CI/CD
