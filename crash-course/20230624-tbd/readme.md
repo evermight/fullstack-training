@@ -1,3 +1,0 @@
-## Meeting Details
-
-TBD

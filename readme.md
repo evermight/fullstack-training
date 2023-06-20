@@ -3,7 +3,7 @@
 We are running two programs concurrently.
 
 ## 10 hr Crash Course
-Next class time and zoom link here: [crash-course/20230617-intro](crash-course/20230617-intro)
+Next class time and zoom link here: [crash-course/20230617-intro](crash-course/20230624-shell-coding)
 
 ## Deep Dive Practice and Training
 Next class time and zoom link here: [deep-dive/20230621-html](crash-course/20230617-html)
