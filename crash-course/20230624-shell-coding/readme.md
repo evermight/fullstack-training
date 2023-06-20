@@ -7,7 +7,7 @@ Time: Jun 24, 2023 09:00 AM Eastern Time (US and Canada)
 Join Zoom Meeting
 ```
 https://us06web.zoom.us/j/84632844353?pwd=VkxuSFBNOGpOVTBwcVFhQXJMR0dtZz09
-
+```
 Meeting ID: 846 3284 4353
 Passcode: 890659
 
