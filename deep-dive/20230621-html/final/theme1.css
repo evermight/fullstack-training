@@ -1,0 +1,84 @@
+* {
+}
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 50px 0;
+}
+header {
+    background: #222;
+}
+header a {
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+#hero {
+    background: url('images/6615302.jpg') center center no-repeat;
+    position: relative;
+}
+#hero::before {
+    content:" ";
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+#hero p {
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+}
+
+#services ul li {
+    border: 0px;
+    position: relative;
+}
+
+#services ul li p,
+#services ul li strong {
+    position: relative;
+}
+
+#services ul li::before {
+    content: " ";
+    position: relative;
+    background: url('images/icons.jpg') no-repeat;
+    background-size: 1950px 1120px;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+#services ul li:nth-child(1)::before {
+    background-position: -103px -338px;
+}
+
+#services ul li:nth-child(2)::before {
+    background-position: -360px -338px;
+}
+
+#services ul li:nth-child(3)::before {
+    background-position: -360px -582px;
+}
+#testimonials blockquote {
+    background: #222;
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    margin: 0;
+}
+#testimonials div:nth-child(odd)::before,
+#testimonials div:nth-child(even)::after {
+    content: " ";
+    background: url("images/6615302.jpg") center top no-repeat;
+}
+
+
+#testimonials div:nth-child(odd)::before {
+    background-position: bottom;
+}
