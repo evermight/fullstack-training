@@ -49,3 +49,5 @@ Passcode: 558298
 Find your local number: https://us06web.zoom.us/u/kbuBKTrdTp
 
 ```
+
+## Block vs. Inline
