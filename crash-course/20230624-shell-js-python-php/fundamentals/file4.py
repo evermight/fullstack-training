@@ -1,6 +1,10 @@
-# Array
-arr1 = [23,242.42,"A sequence of characters",True,None]
+var1 = 20
+var2 = 50
+var3 = 2
 
-print(arr1[0])
-print(arr1[1])
-# Print the other array items
+# BEDMAS applies
+result = (var1 + var2) / var3
+
+print(result)
+print("\n")
+print(var1 + var2/var3)

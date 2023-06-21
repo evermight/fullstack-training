@@ -1,10 +1,11 @@
 <?php
-// Old way of declaring arrays
-$arr1 = array(12,34.34,"A sequence of characters",true,null);
+$var1 = 20;
+$var2 = 50;
+$var3 = 2;
 
-// Modern way of declaring arrays
-$arr2 = [12,34.34,"A sequence of characters",true,null];
+// BEDMAS applies
+$result = ($var1 + $var2) / $var3;
 
-print "<p>".$arr1[0]."</p>";
-print "<p>".$arr1[1]."</p>";
-
+print($result);
+print("\n");
+print($var1 + $var2/$var3);
