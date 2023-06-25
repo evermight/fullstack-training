@@ -3,7 +3,8 @@
 We are running two programs concurrently.
 
 ## Crash Course
-Next class time and zoom link here: [crash-course/20230624-shell-js-python-php](crash-course/20230624-shell-js-python-php)
+
+TBD
 
 ## Deep Dive Practice and Training
 

@@ -7,7 +7,10 @@ $variable4 = true; // true of false (boolean)
 $variable5 = null;
 // undefined ...  
 
-echo "<p style=\"color:red;\">".$variable1."</p>";
-echo "<p style=\"color:red;\">".$variable2."</p>";
+echo $variable1;
+echo $variable2;
 // print the other variables
 //
+print $variable3;
+print $variable4;
+print $variable5;
