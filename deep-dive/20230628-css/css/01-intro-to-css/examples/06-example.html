@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+/* <ul> and has the id="belongings"
+     will have green background
+*/
+ul#belongings {
+   background-color:green;
+}
+
+/* <li> with class="high-priority" and a data-note="Expires 2020-01-01"
+     which happens to be Passport */
+li.high-priority[data-note="Expires 2020-01-01"] {
+   color:red;
+}
+	</style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>Take these with you on vacation:</p>
+    <ul id="belongings">
+      <li class="high-priority" data-note="Expires 2020-01-01">Passport</li>
+      <li class="high-priority">Cash</li>
+      <li>Clothes</li>
+    </ul>
+    <p>Remember to:</p>
+    <ol id="remember-to">
+      <li>Notify family of departure.</li>
+      <li>Lock the house door.</li>
+      <li>Call taxi.</li>
+    </ol>
+  </body>
+</html>

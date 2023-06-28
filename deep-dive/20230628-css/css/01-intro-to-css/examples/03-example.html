@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+/* Tags that have data-msg="review"
+    "I love to eat pizza" and "I love to eat chocolate" will be italicized and green */
+[data-msg="review"] {
+  font-style:italic;
+  color:green;
+}
+
+/* Tags that have class="food"
+    "pizza.png" and "dipping-sauce.png" will be 200px by 200px and 50% opacity */
+[class="food"] {
+  width: 200px;
+  height: 200px;
+  opacity: 0.5;
+}
+	</style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>Last modified Sept 1, 2019</p>
+    <p data-msg="review">I love to eat pizza</p>
+    <p data-msg="review">I love to eat chocolate</p>
+    <img class="food" src="pizza.jpg" />
+    <img class="food" src="dipping-sauce.jpg" />
+  </body>
+</html>

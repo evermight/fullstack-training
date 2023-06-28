@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+/* first element of each child */
+:first-child {
+  color: green;
+}
+
+/* every even numbered child */
+:nth-child(2n) {
+  color: red;
+}
+/* every even numbered child */
+:nth-child(4) {
+  font-family: cursive;
+}
+	</style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>Take these with you on vacation:</p>
+    <ul id="belongings">
+      <li class="high-priority" data-note="Expires 2020-01-01">Passport</li>
+      <li class="high-priority">Cash</li>
+      <li>Clothes</li>
+    </ul>
+    <p>Remember to:</p>
+    <ol id="remember-to">
+      <li>Notify family of departure.</li>
+      <li>Lock the house door.</li>
+      <li>Call taxi.</li>
+    </ol>
+  </body>
+</html>

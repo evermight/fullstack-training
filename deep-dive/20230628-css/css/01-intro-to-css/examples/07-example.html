@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+/* <h1> OR <ul id="belongings"> */
+h1, ul#belongings {
+   background-color:green;
+}
+
+/* <h1> OR <p> OR <li class="high-priority" data-note="Expires 2020-01-01"> */
+h1,
+p,
+li.high-priority[data-note="Expires 2020-01-01"] {
+   color:red;
+}
+	</style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>Take these with you on vacation:</p>
+    <ul id="belongings">
+      <li class="high-priority" data-note="Expires 2020-01-01">Passport</li>
+      <li class="high-priority">Cash</li>
+      <li>Clothes</li>
+    </ul>
+    <p>Remember to:</p>
+    <ol id="remember-to">
+      <li>Notify family of departure.</li>
+      <li>Lock the house door.</li>
+      <li>Call taxi.</li>
+    </ol>
+  </body>
+</html>

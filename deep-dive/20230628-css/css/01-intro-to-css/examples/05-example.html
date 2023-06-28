@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+/* <li> under the <body> under any tag with id="belongings"
+     which happens to be Passport, Cash and Clothes */
+body #belongings li {
+  font-style:italic;
+  color:green;
+}
+
+/* <li> under <ol>
+     which happens to be Notify family of departure, Lock the house door, Call taxi */
+ol li {
+    color:red;
+}
+	</style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>Take these with you on vacation:</p>
+    <ul id="belongings">
+      <li class="high-priority" data-note="Expires 2020-01-01">Passport</li>
+      <li class="high-priority">Cash</li>
+      <li>Clothes</li>
+    </ul>
+    <p>Remember to:</p>
+    <ol id="remember-to">
+      <li>Notify family of departure.</li>
+      <li>Lock the house door.</li>
+      <li>Call taxi.</li>
+    </ol>
+  </body>
+</html>
