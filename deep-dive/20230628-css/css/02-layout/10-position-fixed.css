@@ -1,0 +1,9 @@
+h1, ul,ol,section {display:none;}
+
+#overlay {
+	background:yellow;
+	border:5px solid red;
+	
+	/* Use position fixed to style the page to look like 10-position-fixed.png */
+
+}

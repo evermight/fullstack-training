@@ -1,0 +1,27 @@
+li {
+	background:red;
+	padding:10px;
+	margin:10px;
+}
+#set-1, #set-2, #set-3 {
+
+	list-style:none;
+	background:yellow;
+	height:200px;
+	margin:10px 0;
+	padding:0;
+
+}
+
+/* Achieve the layout of 06-display-flex.png */
+#set-1 {
+
+}
+
+#set-2 {
+
+}
+
+#set-3 {
+
+}

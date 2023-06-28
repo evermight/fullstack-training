@@ -1,0 +1,14 @@
+p, ul, ol, section, #overlay {display:none;}
+
+#set-3 {
+	list-style:none; /* this will get rid of numbers for ol */
+	margin:0;
+	padding:0;
+	
+	/* display a grid similar to 07-display-grid.png */
+
+}
+
+#set-3 li {
+	border:1px solid black;
+}

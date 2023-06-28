@@ -1,0 +1,16 @@
+#set-1, #set-2, #set-3, section, #overlay {display:none;}
+
+
+em {
+	background:red;
+	width:200px;
+	height:200px;
+	border:10px solid black;
+	padding:10px;
+	margin:10px;
+	
+	
+	/* What happens when you use display:inline vs. display:inline-block vs. display:block ? */
+	
+}
+

@@ -1,0 +1,12 @@
+block level elements -- typically used for content that is an entire THOUGHT or IDEA.
+
+inline level elements -- typically used to convey a term or phrase.
+
+
+
+alphabet  --- inline: span, a, em,strong 
+words --- inline: span, a, em,strong 
+phrases --- inline: span, a, em,strong 
+sentences --- block: p, blockquote, div, li, ...
+paragraphs --- block: p, blockquote...
+stories/essays -- block: article, main, section, nav, header

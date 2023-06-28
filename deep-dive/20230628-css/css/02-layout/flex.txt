@@ -1,0 +1,57 @@
+Flex
+
+https://stackoverflow.com/questions/34753491/how-does-flex-shrink-factor-in-padding-and-border-box
+
+NO WRAP
+------
+container: bigger or smaller that contained items
+flex-basis: // not set
+flex-shrink: 0;
+flex-grow: 0;
+
+Each item will be default width (eg. if inline, then size of content, if block, then whatever the block size)
+
+
+------
+container: bigger or smaller that contained items
+flex-basis: <integer><unit>;
+flex-shrink: 0;
+flex-grow: 0;
+
+Each item will be exactly the flex basis value
+
+
+------
+container: smaller than contained items
+flex-basis: <integer><unit>;
+flex-shrink: 1;
+flex-grow: 0;
+
+items will attempt to shrink
+
+
+------
+container: bigger than contained items
+flex-basis: <integer><unit>;
+flex-shrink: 1;
+flex-grow: 0;
+
+items will be width of flex-basis
+
+
+------
+container: smaller than contained items
+flex-basis: <integer><unit>;
+flex-shrink: 0;
+flex-grow: 1;
+
+items will be width of flex-basis
+
+
+------
+container: bigger than contained items
+flex-basis: <integer><unit>;
+flex-shrink: 0;
+flex-grow: 1;
+
+items will grow to fill.

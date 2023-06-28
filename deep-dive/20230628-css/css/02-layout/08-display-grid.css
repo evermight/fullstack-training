@@ -1,0 +1,24 @@
+p, ul, ol, section, #overlay {display:none;}
+
+#set-3 {
+	list-style:none; /* this will get rid of numbers for ol */
+	margin:0;
+	padding:0;
+	
+	display:grid;
+	grid-template:100px 200px 100px 50px / 200px 200px 200px;
+}
+
+#set-3 li {
+	border:1px solid black;
+}
+
+#set-3 li:nth-child(even) {
+	background:yellow;
+}
+
+#set-3 li:nth-child(odd) {
+	background:pink;
+}
+
+/* display a grid similar to 08-display-grid.png */
