@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+li.high-priority[data-note="Expires 2020-01-01"] {
+   background-color:red;
+   color:white;
+}
+
+/* all <li class="high-priority"> is red text */
+li.high-priority {
+   color:red;
+}
+
+
+/* all <li> are gray text */
+li {
+   color:gray;
+}
+
+	</style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>Take these with you on vacation:</p>
+    <ul id="belongings">
+      <li class="high-priority" data-note="Expires 2020-01-01">Passport</li>
+      <li class="high-priority">Cash</li>
+      <li>Clothes</li>
+    </ul>
+    <p>Remember to:</p>
+    <ol id="remember-to">
+      <li>Notify family of departure.</li>
+      <li>Lock the house door.</li>
+      <li>Call taxi.</li>
+    </ol>
+  </body>
+</html>
