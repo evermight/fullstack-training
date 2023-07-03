@@ -4,7 +4,7 @@ We are running two programs concurrently.
 
 ## Crash Course
 
-Next class time and zoom link here: [crash-course/20230708-js-python-php](20230708-js-python-php)
+Next class time and zoom link here: [crash-course/20230708-js-python-php](crash-course/20230708-js-python-php)
 
 ## Deep Dive Practice and Training
 
