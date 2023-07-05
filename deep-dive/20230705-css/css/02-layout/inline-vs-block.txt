@@ -10,3 +10,6 @@ phrases --- inline: span, a, em,strong
 sentences --- block: p, blockquote, div, li, ...
 paragraphs --- block: p, blockquote...
 stories/essays -- block: article, main, section, nav, header
+
+
+inline-block - see the inline-block/index.html example
