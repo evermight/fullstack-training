@@ -1,0 +1,41 @@
+p, ul, ol, section, #overlay {display:none;}
+
+#set-3 {
+	list-style:none; /* this will get rid of numbers for ol */
+	margin:0;
+	padding:0;
+	
+	display:grid;
+	grid-template:100px 200px 100px 50px / 200px 200px 200px;
+}
+
+#set-3 li {
+	border:1px solid black;
+}
+
+#set-3 li:nth-child(even) {
+	background:yellow;
+}
+
+#set-3 li:nth-child(odd) {
+	background:pink;
+}
+
+/* display a grid similar to 08-display-grid.png */
+#set-3 li:nth-child(1) {
+	grid-row:1/3;
+}
+
+#set-3 li:nth-child(2) {
+	grid-column:2/4;
+}
+
+#set-3 li:nth-child(3) {
+	grid-row:2/4;
+	grid-column:2/4;
+}
+
+#set-3 li:nth-child(8) {
+	grid-row:5/7;
+	grid-column:3/4;
+}

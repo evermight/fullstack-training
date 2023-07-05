@@ -1,0 +1,32 @@
+p {background-color:red;}
+ul {background-color:pink;}
+li {background-color:purple;}
+#set-2, #set-3, section, #overlay {display:none;}
+
+/* Make the <ul> tag with id="set-1" have 300px width and 100px height */
+#set-1 {
+	width:300px;
+	height:100px;
+}
+
+/* Make the first <li> tag of id="set-1" have orange background, 50% width and 75% height relative to its container */
+#set-1 li:first-child {
+	background:orange;
+	width:50%;
+	height:75%;
+}
+
+/* Make the last <li> tag of id="set-1" have green background, 50% width and 75% height relative to view port */
+#set-1 li:last-child {
+	background:green;
+	width:50vw;
+	height:75vh;
+}
+
+/* Make all <a> tag have cyan background and 200px width and 150px height */
+a {
+	background:cyan;
+	width:200px;
+	height:150px;
+	display:block;
+}

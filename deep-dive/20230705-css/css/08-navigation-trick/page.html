@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <style>
+      body {
+        padding:0;
+        margin:0;
+        width:100vw;
+        overflow:hidden;
+      }
+      #header {
+        background:blue;
+        color:white;
+        height:200px;
+      }
+      #main-content {
+        background:yellow;
+        width:100vw;
+        height:200vh;
+        position:relative;
+        left:0;
+        transition:left 2s ease;
+      }
+      #nav {
+        background:pink;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:-300px;
+        width:300px;
+      }
+      #trigger {
+        cursor:pointer;
+        text-decoration:underline;
+      }
+      #chk {
+        display:none;
+      }
+      #chk:checked ~ #main-content {
+        left:300px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <label id="trigger" for="chk">Trigger</label>
+    </header>
+    <input type="checkbox" id="chk" checked="checked">
+    <div id="main-content">
+      <nav id="nav">
+        <ul>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+        </ul>
+      </nav>
+      <div>Hello World!</div>
+    </div>
+  
+
+</body></html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Pseudo Elements</title>
+		<style>
+		h1::before{}
+			p:nth-of-type(2)::before {
+				content:"Say";
+				color:green;
+				font-size:30px;
+			}
+			p:nth-of-type(3)::after {
+				content:"World";
+				color:red;
+				font-family:cursive;
+			}
+			p:nth-of-type(4)::before {
+				content:"Say";
+				color:green;
+				font-size:30px;
+			}
+			p:nth-of-type(4)::after {
+				content:"World";
+				color:red;
+				font-family:cursive;
+			}
+			p:nth-of-type(5)::before {
+				content:url(picture.jpg);	
+				transform:scale(0.1);
+				display:block;
+			}
+			p:nth-of-type(6)::after {
+				content:"";	
+				display:block;
+				width:50px;
+				height:50px;
+				background:url(picture.jpg);
+				background-size:cover;
+			}
+		</style>
+	</head>
+	<body>
+		<p>Hello</p>
+		<p>Hello</p>
+		<p>Hello</p>
+		<p>Hello</p>
+		<p>Hello</p>
+		<p>Hello</p>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+p {background-color:red;}
+ul {background-color:pink;}
+li {background-color:purple;}
+
+/* Make the third <p> tag and the second and sixth <li> of <ul> display inline */
+ul li:nth-child(2),
+ul li:nth-child(6),
+p:nth-child(4) {display:inline;}
+
+/* Make all <a> tag display inline */
+a { display: block; }
+
+/* Make all <span> tag and the first <li> tag of any list display none */
+li:first-child,
+span { display:none; }

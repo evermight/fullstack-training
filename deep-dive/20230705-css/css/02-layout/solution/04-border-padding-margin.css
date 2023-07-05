@@ -1,0 +1,20 @@
+#set-1, #set-2, #set-3, section, #overlay {display:none;}
+
+
+p:nth-child(2) {
+	background:red;
+	width:200px;
+	
+	/* Add a 10px border that is solid line and black */
+	border:10px solid black;
+	
+	/* Add 10px padding to the top, right, bottom and left */
+	padding:10px;
+
+	/* Add 10px margin to the top, right, bottom and left */
+	margin:10px;
+	
+	/* Try adding a box-sizing:border-box;   What does this do? */
+	box-sizing:border-box;	
+}
+

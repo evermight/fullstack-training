@@ -1,0 +1,40 @@
+li {
+	background:red;
+	padding:10px;
+	margin:10px;
+}
+#set-1, #set-2, #set-3 {
+	list-style:none;
+	background:yellow;
+	height:200px;
+	margin:10px 0;
+	padding:0;
+}
+
+/* Achieve the layout of 06-display-flex.png */
+#set-1 {
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	
+	justify-content:flex-start;
+	align-content:center;
+}
+
+#set-2 {
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	
+	justify-content:flex-end;
+	align-content:center;
+}
+
+#set-3 {
+	display:flex;
+	flex-direction:column-reverse;
+	flex-wrap: wrap;
+	
+	justify-content:flex-start;
+	align-content:center;
+}

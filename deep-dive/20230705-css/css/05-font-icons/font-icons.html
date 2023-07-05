@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Pseudo Elements</title>
+		<link href="fontawesome/fontawesome.css" rel="stylesheet" type="text/css" />
+		<style>
+			p:nth-of-type(1) img {
+			width:20px;
+			height:20px;
+			display:inline-block;
+			}
+			p:nth-of-type(2) {
+				background:url(tw-icon.png) left center no-repeat;
+				background-size:20px 20px;
+				text-indent:20px;
+			}
+			p:nth-of-type(3):before {
+				content:"";
+				background:url(tw-icon.png) left center no-repeat;
+				background-size:cover;
+				display:inline-block;
+				width:20px;
+				height:20px;
+			}
+
+/*
+			p:nth-of-type(4):before {
+				font-size:50px;
+				color:#36F;
+			}
+*/
+		</style>
+	</head>
+	<body>
+		<p><img src="tw-icon.png" />Hello</p>
+		<p>Hello</p>
+		<p>Hello</p>
+		<p class="fa fa-twitter">Hello</p>
+		<p>Advantages of font icons: easier to change colours with css; SVG based so will still look nice when you change size of image</p>
+		<p>Disadvantages of font icons: a little slower to load</p>
+	</body>
+</html>

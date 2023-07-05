@@ -1,0 +1,13 @@
+/* Make all items text-align right */
+* { text-align:right; }
+
+/* Make all <p> text-align center */
+p { text-align:center; }
+
+/* Make all odd numbered <li> items text-align left */
+li:nth-child(odd) { text-align:left; }
+
+/* Make the first, fifth and last <li> of any list text-align center */
+li:first-child,
+li:nth-child(5),
+li:last-child { text-align:center; }

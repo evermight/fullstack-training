@@ -1,0 +1,36 @@
+h1, ul,ol,section {display:none;}
+
+/* Use a combination of position:fixed and position:absolute to style the page to look like 11-position-absolute.png */
+#overlay {
+	background:rgba(0,0,0,0.5);
+	position:fixed;
+
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+
+/* This yellow box should be be half the window height and width and centered on the screen */
+#overlay div {
+	background:yellow;
+	position:fixed;
+
+	width:50%;
+	height:50%;
+	
+	top:25%;
+	left:25%;
+}
+
+/* This red box should be 20% the height and width of the yellow box, and 10% from the left and top of the yellow box */
+#overlay p {
+	background:red;
+	position:absolute;
+
+	width:20%;
+	height:20%;
+	
+	top:10%;
+	left:10%;
+}
