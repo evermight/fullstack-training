@@ -8,7 +8,7 @@ Next class time and zoom link here: [crash-course/20230708-js-python-php](crash-
 
 ## Deep Dive Practice and Training
 
-Next class time and zoom link here: [deep-dive/20230705-css](deep-dive/20230705-css)
+Next class time and zoom link here: [deep-dive/20230712-css](deep-dive/20230712-css)
 
 # ABOUT THE GROUP
 Hey Everyone! 
