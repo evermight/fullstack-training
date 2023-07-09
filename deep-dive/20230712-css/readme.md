@@ -3,7 +3,7 @@
 ```
 
 Topic: CSS Part 3
-Time: Jul 12, 2023 01:00 PM Eastern Time (US and Canada)
+Time: Jul 10, 2023 01:00 PM Eastern Time (US and Canada)
 
 Join Zoom Meeting
 ```
