@@ -4,11 +4,11 @@ We are running two programs concurrently.
 
 ## Crash Course
 
-Next class time and zoom link here: [crash-course/20230708-js-python-php](crash-course/20230708-js-python-php)
+Next class time and zoom link here: [crash-course/20230715-database-webapp](crash-course/20230715-database-webapp)
 
 ## Deep Dive Practice and Training
 
-Next class time and zoom link here: [deep-dive/20230712-css](deep-dive/20230712-css)
+Next class time and zoom link here: [deep-dive/20230719-css](deep-dive/20230719-css)
 
 # ABOUT THE GROUP
 Hey Everyone! 
