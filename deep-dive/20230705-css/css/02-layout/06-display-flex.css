@@ -13,6 +13,11 @@ li {
 
 }
 
+#set-2, #set-3 {
+	width: 500px;
+	margin: 20px auto;
+}
+
 /* Achieve the layout of 06-display-flex.png */
 #set-1 {
 

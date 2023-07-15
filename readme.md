@@ -4,7 +4,7 @@ We are running two programs concurrently.
 
 ## Crash Course
 
-Next class time and zoom link here: [crash-course/20230715-database-webapp](crash-course/20230715-database-webapp)
+Next class time and zoom link here: [crash-course/20230722-full-app](crash-course/20230722-full-app)
 
 ## Deep Dive Practice and Training
 
