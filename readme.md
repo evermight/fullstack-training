@@ -8,7 +8,7 @@ Next class time and zoom link here: [crash-course/20230722-full-app](crash-cours
 
 ## Deep Dive Practice and Training
 
-Next class time and zoom link here: [deep-dive/20230719-css](deep-dive/20230719-css)
+Next class time and zoom link here: [deep-dive/20230726-css](deep-dive/20230726-css)
 
 # ABOUT THE GROUP
 Hey Everyone! 
