@@ -2,6 +2,7 @@
 # Video Links
 
 Part 1: https://www.youtube.com/watch?v=WsPCi11VqOA
+
 Part 2: https://www.youtube.com/watch?v=LwExxFGnBHs
 
 # Notes
