@@ -1,14 +1,47 @@
 <!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=windows-1252"><meta name="viewport" content="width=device-width"><title>http://learn.evermight.net/johnlai/extra-html/triangle.html</title><link rel="stylesheet" type="text/css" href="resource://content-accessible/viewsource.css"></head><body id="viewsource" class="highlight" style="-moz-tab-size: 4" contextmenu="actions"><pre id="line1"><span></span><span class="doctype">&lt;!DOCTYPE html&gt;</span><span>
-<span id="line2"></span></span><span>&lt;<span class="start-tag">html</span> <span class="attribute-name">lang</span>="<a class="attribute-value">en</a>"&gt;</span><span>
-<span id="line3"></span>  </span><span>&lt;<span class="start-tag">head</span>&gt;</span><span>
-<span id="line4"></span>  </span><span>&lt;/<span class="end-tag">head</span>&gt;</span><span>
-<span id="line5"></span>  </span><span>&lt;<span class="start-tag">body</span>&gt;</span><span>
-<span id="line6"></span>    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">style</span>="<a class="attribute-value">width:0;height:0;border-width:20px 20px 20px 20px; border-color:red green yellow black; border-style:solid;</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
-<span id="line7"></span>    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">style</span>="<a class="attribute-value">width:300px;height:0;border-width:20px 20px 20px 20px; border-color:red green yellow black; border-style:solid;</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
-<span id="line8"></span>    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">style</span>="<a class="attribute-value">width:300px;height:0;border-width:20px 20px 20px 20px; border-color:black black black transparent; border-style:solid;</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
-<span id="line9"></span>    </span><span>&lt;<span class="start-tag">div</span> <span class="attribute-name">style</span>="<a class="attribute-value">width:300px;height:0;border-width:20px 20px 20px 10px; border-color:green green green transparent; border-style:solid;</a>"&gt;</span><span></span><span>&lt;/<span class="end-tag">div</span>&gt;</span><span>
-<span id="line10"></span>  </span><span>&lt;/<span class="end-tag">body</span>&gt;</span><span>
-<span id="line11"></span></span><span>&lt;/<span class="end-tag">html</span>&gt;</span><span>
-<span id="line12"></span></span></pre><menu type="context" id="actions"><menuitem id="goToLine" label="Go to Line…" accesskey="L"></menuitem><menuitem id="wrapLongLines" label="Wrap Long Lines" type="checkbox"></menuitem><menuitem id="highlightSyntax" label="Syntax Highlighting" type="checkbox" checked="true"></menuitem></menu></body></html>
+<html lang="en">
+<head>
+<style>
+	.triangle-experiment {
+	width: 0px;
+	height: 0px;
+	background: red;
+	border-top-width: 10px;
+	border-right-width: 10px;
+	border-bottom-width: 10px;
+	border-left-width: 10px;
+	border-top-color: green;
+	border-right-color: orange;
+	border-bottom-color: blue;
+	border-left-color: yellow;
+	border-style: solid;
+	}
+	.tool-tip {
+		display: inline-block;
+		width: auto;
+		padding: 20px;
+		background: green;
+		position: relative;
+	}
+	.tool-tip:after {
+	
+	  content:"";
+	  width: 0;
+	  height:0;
+	  position: absolute;
+	  border-width: 10px;
+	  border-color: green transparent transparent transparent;
+	  border-style: solid;
+	  bottom: -20px;
+	  right: 65px;
+	}
+</style>
+</head>
+<body>
+	<div class="triangle-experiment">
+	</div>
+	
+	
+	<div class="tool-tip">This is a tool tip</div>
+</body>
+</html>
