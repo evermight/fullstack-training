@@ -1,3 +1,7 @@
+# Video Link
+
+Lecture Here: https://www.youtube.com/watch?v=sEjesM77_iU
+
 # Schedule
 ```
 July 26 Wednesday 7PM EST to 8PM EST
