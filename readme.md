@@ -8,7 +8,7 @@ TBD
 
 ## Deep Dive Practice and Training
 
-Next class time and zoom link here: [deep-dive/20230726-css](deep-dive/20230726-css)
+TBD
 
 # ABOUT THE GROUP
 Hey Everyone! 
