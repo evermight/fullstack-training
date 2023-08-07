@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 3em 0;
+}
+
+header {
+  display: flex;
+  background: #333;
+  color: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  font-size: 2em;
+  margin: 0.67em 0.3em;
+}
+header a {
+  color: white;
+}
+nav ul {
+  width: 500px;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+/*
+nav ul li {
+  display: block;
+  padding: 1em 2em;
+}
+*/
+nav ul a {
+  display: block;
+  padding: 1em 2em;
+}
+
+#hero {
+  background-color: #eee;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 5em;
+}
+
+#services ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#services li::before {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: blue;
+  margin: 1em auto;
+  border-width: 3px 0;
+  border-color: #ccc;
+  border-style: solid;
+}
+#services ul li {
+  text-align: center;
+}
+
+#services strong {
+  margin: 1em;
+}
+
+#services p {
+  margin: 1em;
+}
