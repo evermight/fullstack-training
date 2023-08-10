@@ -46,7 +46,12 @@ header ul a {
 }
 
 #hero {
+	/*
   background-color: #eee;
+  background-image: url(images/6615302.jpg);
+  */
+  background: orange url(images/6615302.jpg) center center no-repeat;
+
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -69,11 +74,21 @@ header ul a {
   display: block;
   width: 200px;
   height: 200px;
-  background: blue;
+  background: #eee url(images/icons.jpg) no-repeat;
   margin: 1em auto;
   border-width: 3px 0;
   border-color: #ccc;
   border-style: solid;
+  background-size: 1950px 1120px;
+}
+#services li:nth-of-type(1)::before {
+  background-position: -103px -338px;
+}
+#services li:nth-of-type(2)::before {
+  background-position: -360px -338px;
+}
+#services li:nth-of-type(3)::before {
+  background-position: -360px -582px;
 }
 #services ul li {
   text-align: center;
@@ -97,7 +112,8 @@ header ul a {
 }
 #testimonials div:nth-of-type(1)::after {
   content: "";
-  background-color: blue;
+  background: #eee url(images/6615302.jpg) center top no-repeat;
+  background-size: 1950px 1120px;
   display: block;
   width: 100%;
   height: 100%;
@@ -109,7 +125,8 @@ header ul a {
 }
 #testimonials div:nth-of-type(2)::before {
   content: "";
-  background-color: blue;
+  background: #eee url(images/6615302.jpg) -360px -338px no-repeat;
+  background-size: 1950px 1120px;
   display: block;
   width: 100%;
   height: 100%;
