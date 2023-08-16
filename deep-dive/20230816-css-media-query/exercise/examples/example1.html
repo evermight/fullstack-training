@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+div {
+  background: red;
+}
+/*
+@media (max-width: 1000px) and (min-width: 600px) and (orientation: landscape) {
+*/
+
+@media (max-width: 1000px) and (min-width: 600px) {
+	div {
+	  background: blue;
+	  color: white;
+	  padding: 20px;
+	  font-size: 20px;
+	}
+	div:hover {
+	  background: black;
+	}
+	p {
+	  font-size: 30px;
+	}
+}
+@media (min-width: 1000px) {
+	div {
+	  background: gold;
+	  color: white;
+	  padding: 20px;
+	  font-size: 20px;
+	}
+	div:hover {
+	  background: green;
+	}
+	p {
+	  font-size: 60px;
+	}
+}
+  </style>
+</head>
+<body>
+  <div>Hello</div>
+  <p>World</p>
+</body>
+</html>
