@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#box1 {
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  background: blue;
+  color: white;
+  width: 300px;
+  height: 200px;
+  transition: background 5s, color 5s, width 5s, height 5s, top 5s, left 5s;
+}
+#box1.active {
+  background: red;
+  top: 60px;
+  left: 8	0px;
+  
+  color: black;
+  width: 700px;
+  height: 100px;
+}
+#box2 {
+  position: fixed;
+  top: 300px;
+  left: 20px;
+  background: url(6615302.jpg);
+  background-size: 100%;
+  color: red;
+  width: 300px;
+  height: 200px;
+  transition: background-size 3s;
+}
+#box2.active {
+  background-size: 120%;
+}
+</style>
+</head>
+<body>
+<div id="box1">
+Hello
+</div>
+
+<div id="box2">
+World
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul li ul li:nth-of-type(2) ~ * {
+  background: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div id="box1">Hello</div>
+<div id="box2">World</div>
+<div id="box3">Galaxy</div>
+
+<ul>
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>
+		<ul>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+		</ul>
+	</li>
+</ul>
+</body>
+</html>

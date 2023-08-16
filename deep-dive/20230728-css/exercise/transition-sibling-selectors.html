@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input[type="checkbox"] {
+  opacity: 0%;
+}
+
+#box1 {
+	background: blue;
+	color: white;
+	width: 200px;
+	height: 200px;
+	transition: all 3s;
+}
+
+span:hover ~ #box1,
+input[type="checkbox"]:checked ~ #box1 {
+	background: red;
+	color: black;
+	width: 500px;
+	height: 500px;
+}
+
+
+</style>
+</head>
+<body>
+<input type="checkbox" />
+<span>Hover over me</span>
+<div id="box1">Hello</div>
+</body>
+</html>
