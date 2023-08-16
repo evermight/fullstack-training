@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+input {
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 1;
+}
+#canvas {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  transition: background 3s;
+}
+
+#moon {
+  position: fixed;
+  top: 20vh;
+  right: 35vw;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 1000px;
+  background: white;
+  transition: top 3s;
+}
+
+#moon::after {
+  content: "";
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  top: -20%;
+  left: -20%;
+  border-radius: 1000px;
+  background: black;
+  transition: background 3s;
+}
+
+
+#sun {
+  position: fixed;
+  top: 70vh;
+  left: 25vw;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 1000px;
+  background: yellow;
+  transition: top 3s;
+}
+
+.mountain {
+  position: fixed;
+  bottom: 30vh;
+  right: 10vw;
+  width: 0;
+  height: 0;
+  box-sizing: border-box;
+  border-width: 200px;
+  border-style: solid;
+  border-color: transparent transparent #333 transparent;
+  transition: border-color 3s;
+}
+.mountain.m2 {
+  border-width: 150px;
+  right: 20vw;
+}
+
+.mountain.m3 {
+  border-width: 80px;
+  right: 30vw;
+}
+
+.mountain.m4 {
+  border-width: 200px;
+  right: initial;
+  left: 0;
+}
+.mountain.m5 {
+  border-width: 100px;
+  right: initial;
+  left: 15vw;
+}
+.tree {
+  position: fixed;
+  bottom: 30vh;
+  background: brown;
+  width: 15px;
+  height: 15px;
+  left: 30vw;
+  transition: border-color 3s;
+}
+.tree::after {
+  content: "";
+  position: absolute;
+  top: -80px;
+  left: -13px;
+  width:0;
+  height:0;
+  border-width: 40px 20px;
+  border-color: transparent transparent #003600 transparent;
+  border-style: solid;
+  transition: border-color 3s;
+}
+.tree.t2 {
+  left: 29vw;
+}
+.tree.t3 {
+  left: 31.5vw;
+}
+#floor {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 70vh;
+  background: #003600;
+  transition: background 3s;
+}
+
+#pig {
+  position: fixed;
+  width:1px;
+  height:1px;
+  top: 90vh;
+  left: -10vw;
+  font-size: 200px;
+}
+
+input:checked ~ #canvas {
+  background: #0BF;
+}
+input:checked ~ #canvas #sun {
+  top: 20vh;
+}
+
+input:checked ~ #canvas #moon {
+  top: 70vh;
+}
+
+input:checked ~ #canvas #moon:after {
+  background: #0BF;
+}
+
+
+input:checked ~ #canvas #floor {
+  background: green;
+}
+input:checked ~ #canvas .mountain {
+  border-color: transparent transparent #999 transparent;
+}
+
+input:checked ~ #canvas .tree::after {
+  border-color: transparent transparent green transparent;
+}
+input:checked ~ #canvas #pig {
+  top: 10vh;
+  left: 80vw;
+  font-size:0;
+  transition: top 5s cubic-bezier(.39,.58,.57,1) 5s, left 5s cubic-bezier(.39,.58,.57,1) 5s, font-size 5s cubic-bezier(.39,.58,.57,1) 5s;
+}
